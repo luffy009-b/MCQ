@@ -5,14 +5,14 @@
     font-weight: 400;
 }
 .main-div{
-    width:100vw;
+    min-width:100vw;
     min-height: 100vh;
     display:grid;
     place-items:center;
     background-color:rgb(176, 215, 245);
 }
 .inner-div{
-    width: 40vw;
+    min-width: 40vw;
     background-color: #dfe6e9;
     padding: 3rem 5rem;
     border-radius: 1rem;
@@ -48,7 +48,7 @@ input{
 }
 #showScore{
     background-color: #dfe6e9;
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding:3rem 4rem;
     box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
 }
@@ -69,3 +69,5 @@ input{
 .scoreArea{
     display:none;
 }
+
+
