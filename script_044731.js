@@ -32,6 +32,21 @@ const quizDB =[
         d : "JustShoes",
         ans : "ans1",
     },
+    {
+
+        question: "Q5 : Plants recieve nutrients mainly from?",
+
+        a : "Air",
+
+        b : "Chlorophyll",
+
+        c : "Soil",
+
+        d : "Water",
+
+        ans : "ans3",
+
+    },
 ];
 
 const question = document.querySelector('.question');
