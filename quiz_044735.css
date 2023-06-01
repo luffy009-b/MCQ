@@ -48,7 +48,7 @@ input{
 }
 #showScore{
     background-color: #dfe6e9;
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding:3rem 4rem;
     box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
 }
