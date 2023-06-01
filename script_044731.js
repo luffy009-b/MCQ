@@ -94,9 +94,9 @@ deselectAll();
         loadQuestion();
     }else{
 
-        showScore.innerHTML =`<h3> You Scored ${score}/${quizDB.length}</h3>;
+        showScore.innerHTML =`<h3> You Scored ${score}/${quizDB.length}</h3>
         <button class="btn" onClick = "location.reload()">Play again</button>
-        `;
+`;
 
         showScore.classList.remove('scoreArea');
 
